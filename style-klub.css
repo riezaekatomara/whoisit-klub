@@ -1,0 +1,165 @@
+.baris {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 1.2rem;
+  grid-column: repeat(3, 1fr);
+}
+
+.baris .item {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: aqua;
+}
+
+.img {
+  width: 20%;
+  height: 40vh;
+}
+
+.img1 {
+  width: 20%;
+  height: 40vh;
+}
+
+.div1-bawah {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div2-bawah {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div3-bawah {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-bawah {
+  width: 20%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  width: 10%;
+  height: 10vh;
+  font-size: medium;
+  margin: 15px;
+}
+
+.footer {
+  text-align: center;
+  margin: 20px;
+}
+
+.button-bawah {
+  margin: 30px;
+  padding: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button.bawah:active {
+  margin: 0px;
+  padding: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.tebak {
+  font-family: "Questrial", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+@media screen and (max-width: 477px) {
+  .baris {
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1.2rem;
+    grid-column: repeat(5, 1fr);
+  }
+  .img {
+    width: 100%;
+    height: 9vh;
+  }
+  .button {
+    width: 10%;
+    height: 4vh;
+    font-size: 5.3px;
+    margin: 9px;
+    gap: 10rem;
+  }
+  .tebak {
+    font-size: 14px;
+  }
+  .div1-bawah {
+    font-size: 10px;
+  }
+  .img-bawah {
+    width: 110px;
+    height: 14vh;
+  }
+  .button-bawah {
+    width: 60px;
+    height: 3vh;
+    font-size: 9px;
+    padding: 0;
+  }
+  .tambahan {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .baris {
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1.2rem;
+    grid-column: repeat(5, 1fr);
+  }
+  .img {
+    width: 100%;
+    height: 9vh;
+  }
+  .button {
+    width: 10%;
+    height: 4vh;
+    font-size: 5.1px;
+    margin: 9px;
+  }
+  .tebak {
+    font-size: 14px;
+  }
+  .div1-bawah {
+    font-size: 10px;
+  }
+  .img-bawah {
+    width: 110px;
+    height: 14vh;
+  }
+  .button-bawah {
+    width: 60px;
+    height: 3vh;
+    font-size: 9px;
+    padding: 0;
+  }
+  .tambahan {
+    font-size: 15px;
+  }
+}
